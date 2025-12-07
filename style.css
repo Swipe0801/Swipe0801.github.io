@@ -1522,3 +1522,72 @@ footer .container {
     padding-top: 10px;
     margin-top: 20px;
 }
+
+/* Responsive Header - 700px and below */
+@media (max-width: 700px) {
+
+    /* Hide navigation links */
+    .nav-links {
+        display: none;
+    }
+
+    /* Hide button text */
+    .btn-text {
+        display: none;
+    }
+
+    /* Player button - icon only with circular background */
+    .player-btn {
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid #d2d2d7;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .player-btn img {
+        height: 20px;
+        width: 20px;
+    }
+
+    /* Login button - icon only with circular background */
+    .login-btn {
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+        justify-content: center;
+        gap: 0;
+    }
+
+    .login-btn svg {
+        margin: 0;
+        width: 18px;
+        height: 18px;
+    }
+
+    /* User menu trigger - icon only with circular background */
+    .user-menu-trigger {
+        width: 44px;
+        height: 44px;
+        padding: 0;
+        border-radius: 50%;
+        justify-content: center;
+        gap: 0;
+    }
+
+    .user-menu-trigger svg {
+        margin: 0;
+        width: 18px;
+        height: 18px;
+    }
+
+    /* Adjust header padding */
+    .header-content {
+        padding: 0 16px;
+    }
+}
