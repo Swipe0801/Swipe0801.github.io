@@ -353,6 +353,58 @@ header {
     padding-bottom: 0px;
     position: relative;
     overflow: hidden;
+
+    /* Subtle gradient - top only, fades to background */
+    background: linear-gradient(180deg,
+            #ffdede 0%,
+            #fff9f9 20%,
+            #ffe1e1 40%,
+            #ffffff 70%,
+            #ffffff 100%);
+    background-size: 100% 200%;
+    animation: gradientSlide 25s ease-in-out infinite;
+}
+
+/* Smooth gradient movement */
+@keyframes gradientSlide {
+
+    0%,
+    100% {
+        background-position: 0% 0%;
+    }
+
+    50% {
+        background-position: 0% 100%;
+    }
+}
+
+/* Gentle overlay for extra depth */
+.hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(ellipse at 20% 10%,
+            rgba(255, 227, 227, 0.15) 0%,
+            transparent 60%);
+    animation: overlayShift 30s ease-in-out infinite;
+    pointer-events: none;
+}
+
+@keyframes overlayShift {
+
+    0%,
+    100% {
+        opacity: 0.3;
+        transform: translate(0, 0) scale(1);
+    }
+
+    50% {
+        opacity: 0.5;
+        transform: translate(50%, 50%) scale(1.05);
+    }
 }
 
 .hero-logo {
