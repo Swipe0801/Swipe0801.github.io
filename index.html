@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="sources/favicon.ico">
+    <title>254222 표한빈 웹저작 기말과제</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modal.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <a href="#" class="logo">
+                <img src="sources/AM.svg" alt="Apple Music Logo">
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#hero">소개</a></li>
+                    <li><a href="#content-2">기능에 대하여</a></li>
+                    <li><a href="#content-4">그 외 많은 것</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <a href="https://music.apple.com/kr/new" class="player-btn">
+                    <img src="sources/player.svg" alt="Player">
+                    Player
+                </a>
+                <a href="login.html" class="login-btn">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor">
+                        <path
+                            d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                    </svg>
+                    로그인
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <img src="img/AM.svg" alt="Apple Music" class="hero-logo scroll-reveal">
+        <h1 class="scroll-reveal">음악을 사랑하는 마음 그대로.</h1>
+        <p class="scroll-reveal">
+            언제나 광고 없이 즐기는 1억 곡 이상의 음악. 몰입감 넘치는 공간 음향과<br>
+            무손실 오디오가 선사하는 최상의 음질. 아티스트 인터뷰, 라이브 콘서트 등 독점<br>
+            콘텐츠까지. 악을 제대로 즐긴다는 건 바로 이런 거죠.
+        </p>
+        <div class="cta-buttons scroll-reveal">
+            <button class="btn btn-primary"><a href="https://music.apple.com/kr/new">지금 당장 사용해보기</a></button>
+            <button class="btn btn-secondary">
+                <img src="sources/appstore.svg">
+                <a href="https://apps.apple.com/us/app/apple-music/id1108187390">앱 다운로드</a>
+            </button>
+        </div>
+        <div class="hero-image-container scroll-reveal">
+            <img src="img/landingmac.png" alt="Apple Music Interface on Mac" class="hero-image">
+        </div>
+    </section>
+
+    <!-- Content 1 -->
+    <section class="content-1">
+        <div class="container">
+            <div class="content-header">
+                <div class="text-group scroll-reveal">
+                    <h2>수천만 곡과 함께 즐기는<br><span class="highlight">최고의 음원 품질</span></h2>
+                    <p>
+                        Apple Music은 단순히 음원만을 제공하는 스트리밍 서비스가 아닙니다.<br>
+                        음악을 들을 때의 모든 음원 품질을 고려하여 최고의 음질을 선사합니다.
+                    </p>
+                </div>
+                <div class="badges scroll-reveal">
+                    <div class="badge-box">
+                        <a href="https://support.apple.com/ko-kr/109354"><img src="img/dolby.svg" alt="Dolby Atmos"></a>
+                    </div>
+                    <div class="badge-box">
+                        <a href="https://support.apple.com/ko-kr/118295"><img src="img/lossless.svg"
+                                alt="Lossless Audio"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="album-rows-container">
+                <!-- First Row -->
+                <div class="album-grid-wrapper">
+                    <div class="album-grid album-grid-row1">
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                    </div>
+                    <div class="album-grid album-grid-row1" aria-hidden="true">
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                    </div>
+                    <div class="album-grid album-grid-row1" aria-hidden="true">
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                    </div>
+                </div>
+
+                <!-- Second Row -->
+                <div class="album-grid-wrapper">
+                    <div class="album-grid album-grid-row2">
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                    </div>
+                    <div class="album-grid album-grid-row2" aria-hidden="true">
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                    </div>
+                    <div class="album-grid album-grid-row2" aria-hidden="true">
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                        <div class="album-item"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content 2 -->
+    <section class="content-2" id="content-2">
+        <div class="container">
+            <div class="content-2-header scroll-reveal">
+                <h2>Apple Music만의<br>최고의 기능 살펴보기</h2>
+                <p>
+                    무손실 오디오, Dolby Atmos, Shazam, 오프라인 다운로드 가능<br>
+                    Apple Music이 제공하는 최고의 퀄리티와 기능을 누려보세요.
+                </p>
+            </div>
+            <div class="box-grid scroll-reveal">
+                <div class="feature-box" id="compatibility-box">
+                    <div class="feature-text">
+                        <h3>높은 호환성.</h3>
+                        <p>iPhone, macOS, iPad, Windows, Android 등 모든 기기에서<br>사용이 가능합니다. 어느 기기에서나 Apple Music을 사용해보세요.
+                        </p>
+                    </div>
+                    <img src="img/content2/list1.png" alt="높은 호환성">
+                </div>
+                <div class="feature-box" id="lyrics-box">
+                    <div class="feature-text">
+                        <h3>수천곡 이상의 가사 지원</h3>
+                        <p>Apple Music은 모든 스트리밍 서비스를 통틀어 가장 아름다운<br>가사 디자인을 제공합니다. 음악과 감성을 함께 활용해보세요.</p>
+                    </div>
+                    <img src="img/content2/list2.png" alt="수천곡 이상의 가사 지원">
+                </div>
+                <div class="feature-box" id="classical-box">
+                    <div class="feature-text">
+                        <h3>클래식 음악 앱의 절대 강자.</h3>
+                        <p>Apple Music Classical 기능 또한 빠트릴 수 없죠. 교양 있는<br>클래식과 함께 Apple Music으로 최고의 음악 경험을 누려보세요.</p>
+                    </div>
+                    <img src="img/content2/list3.png" alt="클래식 음악 맞춤 컬쳐 강자">
+                </div>
+                <div class="feature-box" id="playlist-box">
+                    <div class="feature-text">
+                        <h3>당신에게 딱 맞는 플레이리스트</h3>
+                        <p>Apple Music은 음악을 듣는 유저의 취향을 반영하여<br>최고의 플레이리스트를 제공합니다. 최신 스테이션도 들어보세요.</p>
+                    </div>
+                    <img src="img/content2/list4.png" alt="당신에게 딱 맞는 플레이리스트">
+                </div>
+                <div class="feature-box" id="translation-box">
+                    <div class="feature-text">
+                        <h3>실시간 가사 번역 & 발음 지원</h3>
+                        <p>좋아하는 음악인데 가사를 모를때, 발음을 모를때 전혀<br>걱정할 필요가 없습니다. 바로 가사와 발음을 확인해보세요.</p>
+                    </div>
+                    <img src="img/content2/list5.png" alt="실시간 가사 번역 & 발음 지원">
+                </div>
+                <div class="feature-box" id="automix-box">
+                    <div class="feature-text">
+                        <h3>AutoMix와 함께라면 DJ가 필요 없죠.</h3>
+                        <p>AutoMix로 현재 음악과 다음 음악과의 자연스러운 연결을<br>느껴보세요. 실시간으로 DJ-ing을 받는 경험을 할 수 있습니다.</p>
+                    </div>
+                    <img src="img/content2/list6.png" alt="AutoMix와 함께라면 DJ가 필요 없죠">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content 3 -->
+    <section class="content-3">
+        <div class="container">
+            <div class="content-3-header scroll-reveal">
+                <span class="sub-title">멀티테이너</span>
+                <h2>음악만이 아니라,<br>평가와 선정까지.</h2>
+                <p>
+                    Apple Music이 선정하는 음악 어워드, 베스트 앨범까지.<br>
+                    최고 수준의 큐레이터가 선정한 음악을 함께 청취해보세요.
+                </p>
+            </div>
+            <div class="c3-grid scroll-reveal">
+                <div class="c3-item c3-item-large" style="background-image: url('img/content3/C1.png');">
+                    <div class="c3-overlay">
+                        <div class="c3-text">
+                            <img src="img/AM.svg" alt="Apple Music" class="am-icon">
+                            <span class="c3-title">베스트 앨범 100선</span>
+                        </div>
+                        <div class="arrow-box">
+                            <a href="https://100best.music.apple.com/us?l=ko">
+                                <img src="img/content3/arrow.svg" alt="Arrow"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="c3-item c3-item-half" style="background-image: url('img/content3/C2.png');">
+                    <div class="c3-overlay">
+                        <div class="c3-text">
+                            <img src="img/AM.svg" alt="Apple Music" class="am-icon">
+                            <span class="c3-title">Awards 2025</span>
+                        </div>
+                        <div class="arrow-box">
+                            <a href="https://music.apple.com/us/multi-room/1540188566">
+                                <img src="img/content3/arrow.svg" alt="Arrow"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="c3-item c3-item-half" style="background-image: url('img/content3/C3.png');">
+                    <div class="c3-overlay">
+                        <div class="c3-text">
+                            <img src="img/AM.svg" alt="Apple Music" class="am-icon">
+                            <span class="c3-title">Replay 2025</span>
+                        </div>
+                        <div class="arrow-box">
+                            <a href="https://music.apple.com/kr/replay">
+                                <img src="img/content3/arrow.svg" alt="Arrow"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content 4 -->
+    <section class="content-4" id="content-4">
+        <div class="container">
+            <div class="content-4-header scroll-reveal">
+                <h2>그 외 많은 것.</h2>
+            </div>
+            <div class="c4-grid scroll-reveal">
+                <!-- Box 1 -->
+                <div class="c4-box c4-box-large">
+                    <div class="c4-text">
+                        <span class="c4-sub">모든 기기에서</span>
+                        <h3>애플 뮤직은<br>다음과 호환됩니다.</h3>
+                        <p>iOS, macOS, visionOS, WatchOS,<br>Android, Windows, webOS, Tizen, Playstation,<br>Xbox,
+                            Tesla, Web 총 12개의 운영체제에서 사용 가능.</p>
+                    </div>
+                    <div class="c4-image">
+                        <img src="img/Content4/l1.png" alt="Compatibility">
+                    </div>
+                </div>
+
+                <!-- Box 2 -->
+                <div class="c4-box c4-box-large">
+                    <div class="c4-text">
+                        <span class="c4-sub">Lossless Audio</span>
+                        <h3><span class="highlight">최고의 음원 품질을</span><br>한번 들어보세요.</h3>
+                        <p>실시간으로 재생하는 무손실 오디오와 Dolby Atmos.<br>덕분에 어떤 음악을 틀더라도 즐겁게 들을 수 있죠.<br>
+                            Apple이 직접 만든 최상급의 오디오 엔지니어링입니다.</p>
+                    </div>
+                    <div class="c4-image-empty">
+                        <div class="music-player">
+                            <div class="player-info">
+                                <div class="player-icon">
+                                    <img src="sources/cover1.jpg" alt="Album Art">
+                                </div>
+                                <div class="player-text">
+                                    <span class="track-title">be right back (brb)</span>
+                                    <span class="track-artist">synthion</span>
+                                </div>
+                            </div>
+
+                            <div class="progress-area">
+                                <input type="range" id="progressBar" value="0" min="0" step="1">
+                                <div class="time-labels">
+                                    <span id="currentTime">0:00</span>
+                                    <span id="duration">0:00</span>
+                                </div>
+                            </div>
+
+                            <div class="player-controls">
+                                <button id="prevBtn" class="control-btn prev-btn">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                        <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z" />
+                                    </svg>
+                                </button>
+                                <button id="playPauseBtn" class="control-btn play-btn">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                        <path d="M8 5v14l11-7z" />
+                                    </svg>
+                                </button>
+                                <button id="nextBtn" class="control-btn next-btn">
+                                    <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor">
+                                        <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="volume-control">
+                                <svg viewBox="0 0 24 24" width="16" height="16" fill="#999">
+                                    <path
+                                        d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z" />
+                                </svg>
+                                <input type="range" id="volumeSlider" min="0" max="1" step="0.1" value="0.5">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Box 3 -->
+                <div class="c4-box c4-box-full" id="video-trigger">
+                    <div class="c4-image-full">
+                        <img src="img/Content4/l3.png" alt="Liquid Glass">
+                    </div>
+                    <div class="c4-text-bottom">
+                        <p>새로운 Liquid Glass와 함께 하는 Apple Music.</p>
+                    </div>
+                </div>
+
+                <!-- Box 4 -->
+                <div class="c4-box c4-box-full c4-box-center">
+                    <div class="c4-content-center">
+                        <div class="music-icon-box">
+                            <img src="sources/icon.png" alt="Music">
+                        </div>
+                        <h3>지금 당장 Apple Music<br>1개월 무료 체험하기</h3>
+                        <a href="https://music.apple.com/us/subscribe" class="btn btn-primary-2">1개월 무료 체험해보기</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content 5 -->
+    <section class="content-5">
+        <div class="container">
+            <div class="content-5-header scroll-reveal">
+                <h2>Apple Music<br>요금제 선택하기</h2>
+                <p>무작정으로 부담 없이 선택 가능, 해지는 언제나 쉽게 가능.<br>Apple Music이 제공하는 최고의 4가지 요금제 중 선택해보세요.</p>
+            </div>
+            <div class="pricing-grid scroll-reveal">
+                <!-- Individual -->
+                <div class="pricing-card">
+                    <h3>개인 요금제</h3>
+                    <div class="price">8,900원/월</div>
+                    <ul class="features">
+                        <li>- 오프라인 다운로드 감상 가능</li>
+                        <li>- 공간 음향 및 무손실 오디오 품질</li>
+                        <li>- 독점 아티스트 콘텐츠 및<br>엄선된 플레이리스트</li>
+                        <li>- Classical 앱 무료 이용</li>
+                        <li>- iOS, 안드로이드, Windows<br>스마트 TV 등에서도 이용 가능</li>
+                    </ul>
+                    <a href="https://music.apple.com/us/subscribe" class="btn btn-primary">1개월 무료 체험하기</a>
+                </div>
+
+                <!-- Family -->
+                <div class="pricing-card">
+                    <h3>가족 요금제</h3>
+                    <div class="price">13,500원/월</div>
+                    <ul class="features">
+                        <li>- 개인 요금제의 모든 혜택 이용 가능</li>
+                        <li>- '가족 공유'를 통해 최대 5명과 공유</li>
+                        <li>- 각자 자신만의 보관함, 추천 음악,<br>플레이리스트 이용</li>
+                    </ul>
+                    <a href="https://music.apple.com/us/subscribe" class="btn btn-primary">1개월 무료 체험하기</a>
+                </div>
+
+                <!-- Student -->
+                <div class="pricing-card">
+                    <h3>학생 요금제</h3>
+                    <div class="price">할인된 월정액</div>
+                    <ul class="features">
+                        <li>- 애플뮤직 모든 기능 사용 가능</li>
+                        <li>- 학생 인증으로 2배 이상 저렴하게<br>사용 가능 (별도 인증 필요)</li>
+                        <li>- 학생 묶음 요금제로 별도 사용 가능</li>
+                    </ul>
+                    <a href="https://music.apple.com/us/subscribe" class="btn btn-primary">1개월 무료 체험하기</a>
+                </div>
+
+                <!-- Apple One -->
+                <div class="pricing-card">
+                    <h3>Apple One</h3>
+                    <div class="description">
+                        Apple Music을 3가지 다른<br>서비스와 묶어 하나의 저렴한<br>월간 요금제로 이용.
+                    </div>
+                    <ul class="features">
+                        <li>- Apple TV+, Apple Arcade,<br>iCloud+와 묶이 이용하는 번들 요금제</li>
+                        <li>- 이미 여러 Apple 서비스를<br>이용하고 있다면 더욱 실속 있는 선택</li>
+                    </ul>
+                    <a href="https://music.apple.com/us/subscribe" class="btn btn-primary">1개월 무료 체험하기</a>
+                </div>
+            </div>
+
+            <div class="content-5-footer scroll-reveal">
+                <h2>Apple Music과<br><span class="highlight">항상 함께하세요.</span></h2>
+                <p>
+                    Apple Music은 아티스트들로 하여금 자신의 음악을 만들고, 발표하고, 홍보하고, 전 세계를 무대로<br>
+                    나름의 성과를 측정할 수 있도록 다양한 툴을 통해 지원하고 있습니다. 재생 수, Shazam 검색 수,<br>
+                    플레이리스트 추가 수 관련 기념비적인 순간이 찾아오면 Milestones를 공유해 팬들과 함께 기쁨을 나눌 수도 있죠.<br>
+                    RSS 피드, 위젯, 브랜드 가이드라인, 배지 아트 등 Apple Music에서 콘텐츠를 선보이는 방법을 모두 알아보세요.
+                </p>
+                <div class="footer-buttons">
+                    <a href="https://artists.apple.com/" class="btn btn-black">아티스트를 위한 Apple Music</a>
+                    <a href="https://artists.apple.com/partners" class="btn btn-primary">Partners Program</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-logo">
+                <img src="img/AM.svg" alt="Apple Music">
+            </div>
+            <div class="footer-nav">
+                <div class="footer-row">
+                    <a href="https://store.apple.com/kr">Store</a>
+                    <a href="https://www.apple.com/ipad/">iPad</a>
+                    <a href="https://www.apple.com/iphone/">iPhone</a>
+                    <a href="https://www.apple.com/mac/">Mac</a>
+                    <a href="https://www.apple.com/watch/">Watch</a>
+                    <a href="https://www.apple.com/vision/">Vision</a>
+                </div>
+                <div class="footer-row">
+                    <a href="https://www.apple.com/one/">Apple One</a>
+                    <a href="https://www.apple.com/tv/">Apple TV</a>
+                    <a href="https://www.apple.com/arcade/">Apple Arcade</a>
+                    <a href="https://www.apple.com/books/">Apple Books</a>
+                </div>
+                <div class="footer-row small">
+                    <a href="https://www.apple.com/legal/terms/applemusic/">이용약관</a>
+                    <a href="https://www.apple.com/legal/privacy/">개인정보 이용약관</a>
+                    <a href="https://www.apple.com/legal/sales/">판매 및 환불</a>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                Copyright@2025 Apple Inc. 모든 권리 보유.
+            </div>
+            <div class="footer-legal">
+                Apple Services Pte. Ltd. | 대표이사: Pauline Lim | 주소: Ang Mo Kio Street 64, Singapore 569086 |<br>
+                전화: 080-333-4000 | 사업자등록번호: 251-84-00063 | 통신판매업신고번호: 제2024-서울강남-06040호 | 호스팅 서비스 제공: Apple Inc.<br>
+                전남대학교 여수캠퍼스 1-2학기 웹저작및실습 기말과제 | 254222 표한빈
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Modal for Compatibility -->
+    <div id="compatibility-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>높은 호환성.</h2>
+                <span class="modal-close"><img src="sources/Modal/close.svg" alt="Close"></span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-box">
+                    <img src="sources/Modal/1/Frame 98.png" alt="Mobile Compatibility">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/1/Frame 100.png" alt="Windows Compatibility">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/1/Frame 101.png" alt="Device Compatibility">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Lyrics -->
+    <div id="lyrics-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>수천곡 이상에 지원하는 실시간 음직임 가사.</h2>
+                <span class="modal-close" data-modal="lyrics"><img src="sources/Modal/close.svg" alt="Close"></span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-box">
+                    <img src="sources/Modal/2/Frame 1.png" alt="Lyrics Support 1">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/2/Frame 2.png" alt="Lyrics Support 2">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/2/Frame 3.png" alt="Lyrics Support 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Classical Music -->
+    <div id="classical-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>클래식 음악 앱의 절대 강자.</h2>
+                <span class="modal-close" data-modal="classical"><img src="sources/Modal/close.svg" alt="Close"></span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-box">
+                    <img src="sources/Modal/3/Frame 98.png" alt="Classical Music 1">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/3/Frame 100.png" alt="Classical Music 2">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/3/Frame 101.png" alt="Classical Music 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Playlist -->
+    <div id="playlist-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>당신에게 딱 맞는 플레이리스트</h2>
+                <span class="modal-close" data-modal="playlist"><img src="sources/Modal/close.svg" alt="Close"></span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-box">
+                    <img src="sources/Modal/4/Frame 98.png" alt="Playlist 1">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/4/Frame 100.png" alt="Playlist 2">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/4/Frame 101.png" alt="Playlist 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for Translation -->
+    <div id="translation-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>실시간 가사 번역 & 발음 지원</h2>
+                <span class="modal-close" data-modal="translation"><img src="sources/Modal/close.svg"
+                        alt="Close"></span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-box">
+                    <img src="sources/Modal/5/Frame 98.png" alt="Translation 1">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/5/Frame 100.png" alt="Translation 2">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/5/Frame 101.png" alt="Translation 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal for AutoMix -->
+    <div id="automix-modal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2>AutoMix와 함께라면 DJ가 필요 없죠.</h2>
+                <span class="modal-close" data-modal="automix"><img src="sources/Modal/close.svg" alt="Close"></span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-box">
+                    <img src="sources/Modal/6/Frame 98.png" alt="AutoMix 1">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/6/Frame 100.png" alt="AutoMix 2">
+                </div>
+                <div class="modal-box">
+                    <img src="sources/Modal/6/Frame 101.png" alt="AutoMix 3">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Video Modal -->
+    <div id="video-modal" class="modal">
+        <div class="modal-content video-modal-content">
+            <div class="modal-header">
+                <h2>Liquid Glass 알아보기</h2>
+                <span class="modal-close" data-modal="video"><img src="sources/Modal/close.svg" alt="Close"></span>
+            </div>
+            <div class="video-container">
+                <iframe id="youtube-iframe" width="960" height="540" src="" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

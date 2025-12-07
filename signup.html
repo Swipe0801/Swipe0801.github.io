@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>회원가입 - Apple Music</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="signup.css" />
+</head>
+
+<body class="auth-body" id="signup">
+  <div class="auth-card">
+    <img src="img/AM.svg" alt="Apple Music" class="auth-logo">
+    <h1 class="auth-title">회원가입</h1>
+    <div class="auth-back-box"><a href="login.html" class="auth-back">돌아가기</a></div>
+
+    <form class="auth-form">
+      <div class="input-group">
+        <input type="text" id="username2" class="auth-input" placeholder="아이디" required>
+        <button type="button" id="dup_check" class="check-btn">중복체크</button>
+      </div>
+
+      <input type="password" id="pass1" class="auth-input" placeholder="비밀번호" required>
+      <input type="password" id="pass2" class="auth-input" placeholder="비밀번호 확인" required>
+
+      <input type="email" id="email" class="auth-input" placeholder="이메일">
+
+      <input type="date" id="birthdate" class="auth-input" required data-placeholder="생일" aria-label="생일">
+
+      <select class="auth-select" id="age" name="age">
+        <option value="" disabled selected>연령대</option>
+        <option>10대 이하</option>
+        <option>20대</option>
+        <option>30대</option>
+        <option>40대</option>
+        <option>50대 이상</option>
+      </select>
+
+      <select class="auth-select" id="interest" name="interest">
+        <option value="" disabled selected>관심 장르</option>
+        <option value="일렉트로닉">일렉트로닉</option>
+        <option value="EDM">EDM</option>
+        <option value="힙합">힙합</option>
+        <option value="R&B">R&B</option>
+        <option value="POP">POP</option>
+        <option value="Rock">Rock</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Country">Country</option>
+        <option value="Hip hop">Hip hop</option>
+        <option value="K-POP">K-POP</option>
+        <option value="J-POP">J-POP</option>
+      </select>
+
+      <button type="submit" id="signup_button" class="auth-btn">회원가입</button>
+    </form>
+
+    <div class="auth-links">
+      <a href="login.html">로그인하기</a>
+    </div>
+  </div>
+  <script type="text/javascript" src="signup.js"></script>
+</body>
+
+</html>
