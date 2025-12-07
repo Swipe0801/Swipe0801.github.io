@@ -115,3 +115,49 @@
     color: var(--primary-color);
     transform: scale(1.05);
 }
+
+/* Mobile Responsive - 700px and below */
+@media (max-width: 700px) {
+
+    /* Hide custom cursor on mobile */
+    body {
+        cursor: auto !important;
+    }
+
+    .custom-cursor {
+        display: none !important;
+    }
+
+    /* Wider auth card on mobile */
+    .auth-card {
+        max-width: 100%;
+        padding: 30px 20px;
+    }
+
+    /* Larger title on mobile */
+    .auth-title {
+        font-size: 32px;
+        margin-bottom: 30px;
+    }
+
+    /* Larger inputs and button */
+    .auth-input {
+        height: 64px;
+        font-size: 18px;
+        padding: 0 20px;
+    }
+
+    .auth-btn {
+        height: 64px;
+        font-size: 18px;
+        margin-top: 24px;
+    }
+
+    /* Adjust back button position */
+    .auth-back {
+        top: 20px;
+        right: 20px;
+        font-size: 14px;
+        padding: 10px 14px;
+    }
+}
