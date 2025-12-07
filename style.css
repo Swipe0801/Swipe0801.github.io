@@ -1590,4 +1590,110 @@ footer .container {
     .header-content {
         padding: 0 16px;
     }
+
+    /* Hero Section Responsive */
+    .hero {
+        padding-top: 80px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .hero h1 {
+        font-size: 55px;
+        line-height: 1.1;
+        margin-bottom: 15px;
+    }
+
+    .hero p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 25px;
+    }
+
+    .cta-buttons {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+        max-width: 400px;
+        margin-bottom: 40px;
+    }
+
+    .btn {
+        width: 100%;
+        height: 75px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero-image-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .hero-image {
+        width: 341px;
+        height: 151px;
+        max-width: 100%;
+        object-fit: cover;
+        border-radius: 12px;
+    }
+
+    /* Content-1 Responsive */
+    .content-1 {
+        padding: 50px 0;
+    }
+
+    .content-header {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 30px;
+        padding: 0 20px;
+    }
+
+    .content-1 h2 {
+        font-size: 48px;
+        line-height: 1.1;
+        margin-bottom: 15px;
+    }
+
+    .content-1 p {
+        font-size: 16px;
+        line-height: 1.5;
+        margin-bottom: 20px;
+    }
+
+    /* Hide badges (Dolby Atmos and Lossless) */
+    .badges {
+        display: none;
+    }
+
+    /* Album grid adjustments */
+    .album-rows-container {
+        gap: 15px;
+    }
+
+    .album-grid {
+        gap: 15px;
+    }
+
+    .album-item {
+        width: 128px;
+        height: 128px;
+        border-radius: 6px;
+    }
+
+    .album-grid-wrapper::before,
+    .album-grid-wrapper::after {
+        width: 40px;
+    }
+
+    .album-grid-wrapper::before {
+        background: linear-gradient(to right, #fff, transparent);
+    }
+
+    .album-grid-wrapper::after {
+        background: linear-gradient(to left, #fff, transparent);
+    }
 }
